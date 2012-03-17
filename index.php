@@ -6,13 +6,13 @@ Plugin URI: http://www.wordpress-website.org/
 Description: Permanently redirect all 404's to the main blog URL. The primary purpose is to salvage Google PageRank (TM) from missing pages.
 Author: wordpress-website.org
 Author URI: http://wordpress-website.org/
-Version: 1.0
-Stable tag: 1.0
+Version: 1.3
+Stable tag: 1.3
 License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 License:
  ==============================================================================
- Copyright 2011 Don J  (email : admin@wordpress-website.org)
+ Copyright 2011-2012 Don J  (email : admin@wordpress-website.org)
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -31,10 +31,10 @@ License:
 
 function redirect_all_404s() {
 	global $wp_query;
-  	if ($wp_query->is_404 ) {
-       header("Location: ".get_bloginfo('siteurl'),TRUE,301);
+  	if ($wp_query->is_404) {
+       wp_redirect(get_bloginfo('wpurl'),301);exit;
 	}
 }
-add_action('wp', 'redirect_all_404s');
+add_action('wp', 'redirect_all_404s', 1);
 
 ?>
