@@ -3,7 +3,7 @@ Contributors: wordpress_website
 Tags: 404, redirect, redirects, redirector, server error, redirection
 Requires at least: 2.0.2
 Tested up to: 3.3.1
-Stable tag: 1.3
+Stable tag: 1.4
 
 Permanently redirect all 404's to the main blog URL. The primary purpose is to salvage Google PageRank (TM) from missing pages.
 
@@ -36,6 +36,9 @@ Example #1: If you acquire a pre-owned domain (that you intend to run WordPress 
 Example #2: Let's face it, having an exuberant amount of 404's is bad form. Search engines might consider your site "broken", and drop your rankings.
 
 == Changelog ==
+
+= 1.4 =
+* Updated readme.txt file
 
 = 1.3 =
 * Set a high priority of plugin execution.
