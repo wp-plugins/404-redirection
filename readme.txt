@@ -9,7 +9,7 @@ Permanently redirect all 404's to the main blog URL. The primary purpose is to s
 
 == Description ==
 
-This simple plugin tracks and permanently redirects all 404's to the main blog URL. There may be several reasons why you might want to do this, but the primary purpose is to siphon Google Page Rank (TM) from missing pages to the homepage.
+This simple plugin permanently redirects all 404's to the main blog URL. There may be several reasons why you might want to do this, but the primary purpose is to siphon Google Page Rank (TM) from missing pages to the homepage.
 
 == Installation ==
 
