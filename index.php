@@ -6,8 +6,8 @@ Plugin URI: http://www.wordpress-website.org/
 Description: Permanently redirect all 404's to the main blog URL. The primary purpose is to salvage Google PageRank (TM) from missing pages.
 Author: wordpress-website.org
 Author URI: http://wordpress-website.org/
-Version: 1.4
-Stable tag: 1.4
+Version: 1.5
+Stable tag: 1.5
 License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 License:
