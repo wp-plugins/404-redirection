@@ -2,17 +2,17 @@
 
 /*
 Plugin Name: 404 Redirection
-Plugin URI: http://www.wordpress-website.org/
+Plugin URI: http://www.flipsters.org/
 Description: Permanently redirect all 404's to the main blog URL. The primary purpose is to salvage Google PageRank (TM) from missing pages.
-Author: wordpress-website.org
-Author URI: http://wordpress-website.org/
-Version: 1.5
-Stable tag: 1.5
+Author: flipsters.org
+Author URI: http://flipsters.org/
+Version: 1.6
+Stable tag: 1.6
 License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 License:
  ==============================================================================
- Copyright 2011-2012 Don J  (email : admin@wordpress-website.org)
+ Copyright 2011-2012 Don J  (email : admin@flipsters.org)
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
